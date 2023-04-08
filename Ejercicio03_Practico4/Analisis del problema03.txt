@@ -1,0 +1,11 @@
+Definición del problema: Este código tiene como objetivo convertir un número decimal ingresado por el usuario a su equivalente en binario. Para lograr esto, se utiliza el método de división sucesiva por 2 para obtener el resto y el cociente, y luego se construye el número binario utilizando la concatenación de los dígitos obtenidos.
+
+Especificación de los datos de entrada: El único dato de entrada que se requiere es un número decimal que el usuario ingresa por medio de la línea de comandos. Es importante asegurarse de que este valor sea válido y se pueda manejar en el código, ya que se utiliza en la operación de división.
+
+Especificación de los datos de salida: La salida del programa es un número binario que representa el número decimal ingresado por el usuario. El resultado se imprime en la pantalla para que el usuario pueda leerlo. Es importante que el programa genere una salida que sea fácil de leer y comprender para el usuario.
+
+Posibles problemas: Algunos posibles problemas que podrían surgir en este código podrían ser errores en la entrada del usuario, como ingresar un valor no numérico o un número fuera del rango válido. También puede haber problemas en el código si la operación de división no funciona correctamente, lo que podría generar un número binario incorrecto. Además, si el número decimal ingresado es demasiado grande, puede causar un desbordamiento y generar un resultado incorrecto.
+
+
+
+

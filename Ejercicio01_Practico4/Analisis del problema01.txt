@@ -1,0 +1,21 @@
+Definición del problema:
+
+El programa en cuestión es un programa que simula la compra de helados con un presupuesto limitado. El usuario debe ingresar su saldo monetario y el programa le mostrará el precio del helado. Luego, el programa preguntará si el usuario quiere comprar un helado y restará el precio del helado del saldo del usuario cada vez que este compre un helado. El programa seguirá preguntando si el usuario quiere comprar más helados hasta que ya no tenga suficiente dinero para hacerlo.
+
+Especificación de los datos de entrada:
+
+Los datos de entrada necesarios para este programa son:
+
+El saldo monetario del usuario (int)
+Especificación de los datos de salida:
+
+Los datos de salida que ofrece la solución del problema son:
+
+El número total de helados comprados (int)
+Un mensaje de agradecimiento al usuario por su compra (string)
+Posibles mejoras:
+
+Podría agregarse una validación de la entrada de datos para asegurarse de que el usuario ingrese un número válido para su saldo monetario y para la opción de compra de helado (0 o 1).
+
+
+

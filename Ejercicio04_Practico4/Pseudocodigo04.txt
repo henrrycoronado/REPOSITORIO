@@ -1,0 +1,17 @@
+ALGORITMO Mostrar_Dia_Semana;
+VAR
+ENTERO dia;
+INICIO
+ESCRIBIR("Ingresa un número del 1 al 7:");
+LEER(dia);
+SEGUN dia HACER
+1: ESCRIBIR("Lunes");
+2: ESCRIBIR("Martes");
+3: ESCRIBIR("Miércoles");
+4: ESCRIBIR("Jueves");
+5: ESCRIBIR("Viernes");
+6: ESCRIBIR("Sábado");
+7: ESCRIBIR("Domingo");
+DE OTRO MODO ESCRIBIR("Número inválido");
+FIN SEGUN
+FIN.

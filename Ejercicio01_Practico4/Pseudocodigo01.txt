@@ -1,0 +1,26 @@
+ALGORITMO: "Comprar_Helado" , Mostrar;
+
+VARIABLES
+    ENTERO dinero, helado=5$, r, contador; 
+
+INICIO
+    ESCRIBIR("Inserte su saldo monetario: ");
+    LEER( dinero );
+    ESCRIBIR("Saldo actual: "),(dinero);
+    ESCRIBIR("Precio del helado: "), (helado);
+
+  MIENTRAS(dinero>=helado)
+    ESCRIBIR("Desea comprar un helado? ( YES=1   NO=0 ): ");
+    LEER(R)
+    SI (R==1) ENTONCES:
+        	contador = contador+1;
+        ESCRIBIR("!Se compro un helado!");
+        	dinero=dinero-helado;
+        ESCRIBIR("Te queda de Saldo actual: "),(dinero),("para comprar helado.");
+    SI NO :
+        --CERRAR BUCLE--
+
+
+    ESCRIBIR("Compraste un total de "),(contador),(" helados.");
+    ESCRIBIR("!Gracias por su compra!");
+FIN

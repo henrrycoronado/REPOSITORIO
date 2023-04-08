@@ -1,0 +1,8 @@
+Definición del problema:
+El problema consiste en determinar si un número entero ingresado por el usuario es un palíndromo o no. Un número es un palíndromo si se lee igual de derecha a izquierda y de izquierda a derecha. Para resolver el problema, se debe invertir el número y comparar el resultado con el número original.
+
+Especificación de los datos de entrada:
+El programa solicita al usuario que ingrese un número entero utilizando la función "cin". El número ingresado se almacena en la variable "numero".
+
+Especificación de los datos de salida:
+El programa utiliza la función "cout" para mostrar en la consola si el número ingresado es un palíndromo o no. Si el número es un palíndromo, se muestra el mensaje "es un palíndromo". De lo contrario, se muestra el mensaje "no es un palíndromo".o fueran iguales (EL NUMERO NO ES PALINDROMO)

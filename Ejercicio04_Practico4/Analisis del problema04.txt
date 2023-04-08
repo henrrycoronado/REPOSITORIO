@@ -1,0 +1,8 @@
+Definición del problema:
+El objetivo de este código es tomar un número entero del usuario y mostrar el día de la semana correspondiente a ese número utilizando un switch statement. El problema esencial es cómo tomar la entrada del usuario y cómo mostrar la salida correspondiente del día de la semana.
+
+Especificación de los datos de entrada:
+El único dato de entrada necesario para este programa es un número entero del 1 al 7, que se obtiene a través de la entrada estándar (cin) del usuario.
+
+Especificación de los datos de salida:
+La salida del programa es el día de la semana correspondiente al número entero ingresado por el usuario, que se muestra en la pantalla utilizando la salida estándar (cout). Si el número ingresado no está en el rango de 1 a 7, se muestra un mensaje de error indicando que el número es inválido.

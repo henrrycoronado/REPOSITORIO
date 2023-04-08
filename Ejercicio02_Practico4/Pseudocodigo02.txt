@@ -1,0 +1,18 @@
+  ALGORITMO:"NUMERO PALINDROMO", Mostrar;
+VARIABLE
+    ENTERO numero, copia, reversa=0;
+INICIO
+    ESCRIBIR("Ingresa un numero");
+    LEER( numero );
+    	copia = numero;
+    
+    MIENTRAS ( copia > 0 )
+        reversa = reversa * 10 + copia % 10;    //proceso matematico para invertir un numero
+        copia = copia / 10;   			//Este proceso de invertir un numero fue investigado
+    
+
+    SI ( numero = reversa ):
+       ESCRIBIR(numero),("es un palindromo")
+    SI NO : 
+       ESCRIBIR(numero),("no es un palindromo")
+FIN 

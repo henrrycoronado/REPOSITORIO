@@ -1,0 +1,18 @@
+ALGORITMO:"CONVERTIR DECIMAL A BINARIO", Mostrar;
+VARIABLE
+    ENTERO decimal, cociente, resto, binario = 0, digito = 1;
+
+INICIO
+    ESCRIBIR("Ingresa un n mero decimal: ");
+    LEER (decimal);
+    cociente = decimal;
+
+    MIENTRAS (cociente noigual a  0)
+        resto = cociente % 2;
+        cociente = cociente / 2;
+        binario = binario + (resto * digito);
+        digito = digito * 10;
+     FIN MIENTRAS 
+
+    ESCRBIR("El numero "),(decimal),(" en binario es: "),(binario);
+FIN
